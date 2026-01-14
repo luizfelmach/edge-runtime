@@ -14,7 +14,8 @@
     "--rm",
     "--privileged",
     "--security-opt",
-    "seccomp=unconfined"
+    "seccomp=unconfined",
+    "--network=host"
   ],
   "customizations": {
     "vscode": {
